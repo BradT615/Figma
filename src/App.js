@@ -1,9 +1,14 @@
-import './App.css';
+import React from 'react';
+import Hero from './components/Hero';
+import BankApp from './components/BankApp';
+import Footer from './components/Footer';
 
 function App() {
   return (
-    <div className="App bg-slate-800 h-screen">
-      <h1 className='text-white'>Figma Gallery</h1>
+    <div className="flex flex-col">
+      <Hero />
+      <BankApp />
+      <Footer />
     </div>
   );
 }
