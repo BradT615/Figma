@@ -1,11 +1,11 @@
 import React from 'react';
 import Hero from './components/Hero';
-import BankApp from './components/BankApp';
+import BankApp from './components/BankApp/BankApp';
 import Footer from './components/Footer';
 
 function App() {
   return (
-    <div className="flex flex-col">
+    <div className="app">
       <Hero />
       <BankApp />
       <Footer />
